@@ -1,0 +1,7 @@
+{"nombre":"Francisco","descripcion":"Sacar al perro","monto":"1000"}
+{"nombre":"Jessica","descripcion":"Sacar al gato","monto":"144"}
+{"nombre":"Francisco","descripcion":"Sacar al perro","monto":"1500"}
+{"nombre":"Naja","descripcion":"Gastos basicos","monto":"5000"}
+{"nombre":"Valtteri","descripcion":"Gastos basicos","monto":"900"}
+{"nombre":"Valtteri","descripcion":"Sacar al perro","monto":"100"}
+{"nombre":"Kim","descripcion":"Electricidad","monto":"3000"}

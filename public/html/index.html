@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación</title>
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300;400;700&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Roommates</h1>
+    <div id="contenedor">
+
+        <div id="roommates">
+
+            <h3 id="roommates-titulo">Roommates</h3>
+                <form action="/roommates" method="post">
+                    <input id="btn-roommates" type="submit" value="Agregar Roommates">
+                </form>
+            <hr>
+            <div id="contenedor-datos">
+                <table  class="historial-gastos">
+                <tr>
+                    <td>Nombre</td>
+                    <td>Debe</td>
+                  </tr>
+                    __gastoTotal__    
+                      </table>
+            </div>
+        </div>
+
+        <div id="gastos">
+            <h3>Agregar gastos</h3>
+            <form action="historial_gasto" method="get" id="formulario">
+
+                <label class="nombre" name="roommate" for="">Roommate</label>
+                <!-- <input name="roommate" type="text"> -->
+                <select name="nombre-gasto" id="nombre-gasto">
+                    __usuarios__
+                </select>
+
+                <label  class="nombre descripcion" name="descripcion" for="">Descripción</label>
+                <input name="descripcion" type="text">
+
+                <label  class="nombre" name="monto" for="">Monto</label>
+                <input name="monto" type="text">
+                <br>
+
+                <input id="btn-agregar" type="submit" value="Agregar">
+            </form>
+        </div>
+
+        <div id="historial">
+            <h2 class="titulo-historial">Historial</h2>
+            <div id="dd">
+                <table  class="historial-gastos">
+                    <tr>
+                      <td>Nombre</td>
+                      <td>Descripción</td>
+                      <td>Monto</td>
+                      <td>...</td>
+                    </tr>
+                    __historial__
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
+</body>
+</html>
+
